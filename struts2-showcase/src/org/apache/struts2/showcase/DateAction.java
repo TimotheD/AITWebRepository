@@ -44,8 +44,8 @@ public class DateAction extends ActionSupport {
 	/**
 	 * @return Returns the past.
 	 */
-	public Date getPast() {
-		return past;
+	public Date getPasted() {
+		return pasted;
 	}
 
 	/**
