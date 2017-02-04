@@ -47,7 +47,7 @@ public class DateAction extends ActionSupport {
 
 
 	public Date getPast() {
-		return pate;
+		return past;
 	}
 
 	/**
