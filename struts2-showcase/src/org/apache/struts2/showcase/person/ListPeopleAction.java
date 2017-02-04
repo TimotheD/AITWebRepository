@@ -33,7 +33,7 @@ public class ListPeopleAction extends ActionSupport {
 	private static final long serialVersionUID = 3608017189783645371L;
 
 	@Autowired
-	private PersonManager personManager;
+	private PersonManager personManager1;
 
 	private List<Person> people = new ArrayList<Person>();
 
