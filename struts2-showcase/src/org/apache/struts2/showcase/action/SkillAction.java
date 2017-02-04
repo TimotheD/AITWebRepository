@@ -41,6 +41,7 @@ public class SkillAction extends AbstractCRUDAction implements Preparable {
 
 	private String skillName;
 	private Skill currentSkill;
+	private String newsSkill;
 
 	/**
 	 * This method is called to allow the action to prepare itself.
