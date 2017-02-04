@@ -28,7 +28,7 @@ public class DeleteException extends StorageException {
 
 	private static final long serialVersionUID = -5286362812955627352L;
 
-	public DeleteException(String messagesLN) {
+	public DeleteException(String messagesLNN) {
 		super(message);
 	}
 
