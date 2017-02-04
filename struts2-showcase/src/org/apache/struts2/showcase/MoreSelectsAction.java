@@ -34,7 +34,7 @@ public class MoreSelectsAction extends ActionSupport {
 
 	private List _prioritisedFavouriteCartoonCharacters;
 	private List _prioritisedFavouriteCars;
-	private List _prioritisedFavouriteCountries;
+	private List _prioritisedFavouriteCountries12;
 	private List favouriteNumbers;
 
 
