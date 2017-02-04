@@ -37,7 +37,7 @@ public abstract class AbstractCRUDAction extends ActionSupport {
 
 	private static final Logger log = LogManager.getLogger(AbstractCRUDAction.class);
 
-	private Collection availableItems;
+	private Collection availableItem;
 	private String[] toDelete;
 
 	protected abstract Dao getDao();
