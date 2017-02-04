@@ -30,7 +30,7 @@ public class DynamicTreeSelectAction extends ActionSupport {
 	private long nodeId;
 	private Category currentCategory;
 
-
+second line ait
 	public void setNodeId(long nodeId) {
 		this.nodeId = nodeId;
 	}
