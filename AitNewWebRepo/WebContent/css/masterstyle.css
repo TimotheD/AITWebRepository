@@ -1,0 +1,25 @@
+/*
+* @package      Style
+* @description  This package holds style declarations of all
+*               included page layouts
+*/
+
+.logo {
+	width: 510px;
+	height: 100px;
+	background-image: (images/logo.png);
+}
+
+
+
+.row{
+	background: red;
+}
+
+.col-md-6{
+	background: blue;
+}
+
+.col-md-4{
+	background: black;
+}
