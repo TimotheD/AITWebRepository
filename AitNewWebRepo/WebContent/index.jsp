@@ -108,6 +108,15 @@
 						from France</p>
 				</div>
 			</div>
+			
+			<div class="container-fluid row calendar-tv" style="background:white">
+				<div class=col-md-1 style="background-color: darkorange">CAL
+				</div>
+				<div class=col-md-8 > 4 EVENTS
+				</div>
+				<div class=col-md-3 style="background-color: darkgreen">TV AREA
+				</div>
+			</div>
 
 		</div>
 
@@ -211,17 +220,18 @@
 
 	<footer class="content-info">
 		<div class="bottom-advertisement">
-			<div class="form-inline">
-				<div class="form-group">
+			<div class="container ">
+				<div class=" col-md-2" style="background: forestgreen">
 					SOCIAL                                  
 				</div>
-				<div class="form-group">
+				<div>
+					<div class="col-md-5">
 					         ADV 1   
-				</div>
-				<div class="form-group">
+					</div>
+					<div class=" col-md-5">
 					 ADV 2 
+					</div>
 				</div>
-				
 			</div>
 			<br><br><br><br><br><br>
 		</div>
@@ -257,7 +267,7 @@
 				<div class=line></div>
 				<p>
 					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
-						ipsumlorem ipsum</small>mall>
+						ipsumlorem ipsum</small>
 				</p>
 
 			</div>
@@ -272,7 +282,7 @@
 				</p>
 
 			</div>
-						<div class="col-md-2">
+			<div class="col-md-2">
 
 				<h6>FOOTER 5</h6>
 				<div class=line></div>
@@ -282,6 +292,26 @@
 				</p>
 
 			</div>
+						<div class="col-md-2">
+
+				<h6>FOOTER 6</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+
+			</div>
+		</div>
+		<div class=line></div>
+		<div>
+		</div>
+		
+		<div class="creditfooter text-center">
+		<br>
+		<p><a href=#>Membership</a> | <a href=#>Fair use Policy</a> | <a href=#>Privacy Statement</a>
+		<br> Ivorian in Texas inc. is a tax-exempt under 501c3 of the Internal Revenue Code
+		</p>
 		</div>
 	</footer>
 </body>
