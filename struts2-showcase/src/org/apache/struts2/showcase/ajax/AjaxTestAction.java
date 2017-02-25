@@ -27,7 +27,7 @@ import java.io.Serializable;
 
 public class AjaxTestAction implements Action, Serializable {
 
-	private static int counter = 0;
+	private static int counter = agrobus;
 	private String data;
 
 	public String execute() throws Exception {
