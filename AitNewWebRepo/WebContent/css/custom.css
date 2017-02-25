@@ -109,14 +109,32 @@ fieldset[disabled] .btn-primary.active {
     margin: auto;
 }
 
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
 
 /*
  
  
- Carousel
+ 
  
 */
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+.-inner>.item>a>img, .-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     width: 100%;
     /* height: auto; */
@@ -318,7 +336,20 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
+.latest-event .col-md-1{
+	left: -3.6%;
+	/* top: 5%; */
+	margin-bottom: 30%;
+	width: 10.333%
+	
+}
 
+.watchtv{
+	margin-left: 10%;
+    margin-top: -10%;
+    width: 105%;
+	
+}
 
 /* pagine con logo nero */
 
@@ -1204,6 +1235,22 @@ INFO FEED
 }
 
 .carousel-caption {
+ 	display: none !important; 
+	filter: none !important; 
+	progid:none !important;  
+/* 	position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 2px 5px rgba(0,0,0,.6); */
+	}
+	
+.carousel-indicators{
 	display: none !important; 
 	filter: none !important; 
 	progid:none !important; 
@@ -1211,9 +1258,9 @@ INFO FEED
 .calendar-tv{
 	position: absolute;
 	top: 83%;
-    right: 17%;
+    right: 15%;
     bottom: 0px;
-    left: 17%;
+    left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -2564,7 +2611,8 @@ footer{
 }
 
 #footer-elements{
-	padding-bottom: 3%;
+	padding-bottom: 5%;
+    padding-top: 3%;
 	
 }
 
@@ -3323,7 +3371,7 @@ padding:0 30px;
  @media (min-width: 992px) {
 
 /* ==========================================================================
-   STILI GENERICI @ 992
+   GENERIC  STYLE @ 992
    ========================================================================== */
 
 
@@ -3333,6 +3381,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+/* 	font-size: 70px; */
 }
 
 h3 {

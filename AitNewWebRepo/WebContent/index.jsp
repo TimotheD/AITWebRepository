@@ -74,9 +74,9 @@
 			<div class="item active">
 				<img src="images/slideshow/1.png" alt="slide1">
 				<div class="carousel-caption">
-					<h3>
+					<h2>
 						TOGETHER WE STAND <br> A THRIVING COMMUNITY
-					</h3>
+					</h2>
 					<p>Promote and achieve a well integrated, well educated, and
 						well-to-do community.</p>
 				</div>
@@ -86,7 +86,7 @@
 				<img src="images/slideshow/2.png" alt="slide2"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
-					<h3>IVORIAN PICNIC DURING SUMMERTIME</h3>
+					<h2>IVORIAN PICNIC DURING SUMMERTIME</h2>
 					<p>COME SOCIALIZE AND HAVE FUN WITH US</p>
 				</div>
 			</div>
@@ -95,7 +95,7 @@
 				<img src="images/slideshow/3.png" alt="slide3"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
-					<h3>HAPPY INDEPENDANCE DAY</h3>
+					<h2>HAPPY INDEPENDANCE DAY</h2>
 					<p>Cote d'Ivoire just celebrated the 56th year of Independence</p>
 				</div>
 			</div>
@@ -103,18 +103,20 @@
 			<div class="item">
 				<img src="images/slideshow/4.png" alt="slide4">
 				<div class="carousel-caption">
-					<h3>HAPPY INDEPENDANCE DAY</h3>
+					<h2>HAPPY INDEPENDANCE DAY</h2>
 					<p>Cote d'Ivoire just celebrated the 56th year of Independence
 						from France</p>
 				</div>
 			</div>
 			
-			<div class="container-fluid row calendar-tv" style="background:white">
-				<div class=col-md-1 style="background-color: darkorange">CAL
+			<div class="<!-- container-fluid  row --> calendar-tv" style="background:white">
+				<div class="col-md-1 rotate latest-event"style="background-color: darkorange">LATEST EVENTS
 				</div>
-				<div class=col-md-8 > 4 EVENTS
+				<div class=col-md-8> <!-- class=col-md-8 -->  4 EVENTS
 				</div>
-				<div class=col-md-3 style="background-color: darkgreen">TV AREA
+				<div class=col-md-3>
+					<!-- class=col-md-3 -->
+					<img class=watchtv src="images/watchTV.png" alt="Watch TV">
 				</div>
 			</div>
 
