@@ -72,7 +72,7 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="images/slideshow/1.png" alt="slide1">
+				<img src="images/slideshow/A.png" alt="slide1">
 				<div class="carousel-caption">
 					<h2>
 						TOGETHER WE STAND <br> A THRIVING COMMUNITY
@@ -83,7 +83,7 @@
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/2.png" alt="slide2"
+				<img src="images/slideshow/B.png" alt="slide2"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
 					<h2>IVORIAN PICNIC DURING SUMMERTIME</h2>
@@ -92,7 +92,7 @@
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/3.png" alt="slide3"
+				<img src="images/slideshow/C.png" alt="slide3"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
 					<h2>HAPPY INDEPENDANCE DAY</h2>
@@ -101,7 +101,7 @@
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/4.png" alt="slide4">
+				<img src="images/slideshow/D.png" alt="slide4">
 				<div class="carousel-caption">
 					<h2>HAPPY INDEPENDANCE DAY</h2>
 					<p>Cote d'Ivoire just celebrated the 56th year of Independence
@@ -109,15 +109,24 @@
 				</div>
 			</div>
 			
-			<div class="<!-- container-fluid  row --> calendar-tv" style="background:white">
-				<div class="col-md-1 rotate latest-event"style="background-color: darkorange">LATEST EVENTS
+			<div class="container-fluid calendar-tv">
+<!-- 				<div class="col-md-1 rotate latest-event"style="background-color: darkorange">LATEST EVENTS
 				</div>
-				<div class=col-md-8> <!-- class=col-md-8 -->  4 EVENTS
+				<div class=col-md-8 >  4 EVENTS
 				</div>
 				<div class=col-md-3>
-					<!-- class=col-md-3 -->
+					class=col-md-3
 					<img class=watchtv src="images/watchTV.png" alt="Watch TV">
-				</div>
+				</div> -->
+				<div >
+					<div class="latest-event rotate" >  LATEST EVENT</div>
+					<div style="display: inline-block;">  EVENT 1             EVENT 2
+					<br>  EVENT 3             EVENT 4
+					</div>
+					<div>
+						<img class=watchtv src="template/images/watchTV.png" alt="Watch TV">
+					</div>
+				</div> 
 			</div>
 
 		</div>
