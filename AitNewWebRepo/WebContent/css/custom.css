@@ -336,18 +336,14 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 
-.latest-event .col-md-1{
-	left: -3.6%;
-	/* top: 5%; */
-	margin-bottom: 30%;
-	width: 10.333%
+.latest-event{
+	display: inline-block;
 	
 }
 
 .watchtv{
-	margin-left: 10%;
-    margin-top: -10%;
-    width: 105%;
+	max-height: 100%;
+	display: inline-block;
 	
 }
 
@@ -1008,12 +1004,12 @@ section.page-header {
 	background: #323C46;
 	top: 0;
 	z-index: 9999;
-	background: url(../template/images/loading.gif) center center no-repeat #ffffff;
+	background: url(template/images/loading.gif) center center no-repeat #ffffff;
 	background-size: 45px 32px;
 }
 
 .lt-ie10 .loader {
-	background: url(../template/images/loading.gif) center center no-repeat;
+	background: url(template/images/loading.gif) center center no-repeat;
 	background-size: 45px 32px;
 }
 
@@ -1255,18 +1251,14 @@ INFO FEED
 	filter: none !important; 
 	progid:none !important; 
 	}
+	
 .calendar-tv{
 	position: absolute;
-	top: 83%;
     right: 15%;
     bottom: 0px;
     left: 15%;
     z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background:white
 }
 
 
