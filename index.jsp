@@ -72,77 +72,82 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="images/slideshow/A.png" alt="slide1">
+				<img src="images/slideshow/1.png" alt="slide1">
 				<div class="carousel-caption">
-					<h2>
+					<h3>
 						TOGETHER WE STAND <br> A THRIVING COMMUNITY
-					</h2>
+					</h3>
 					<p>Promote and achieve a well integrated, well educated, and
 						well-to-do community.</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/B.png" alt="slide2"
+				<img src="images/slideshow/2.png" alt="slide2"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
-					<h2>IVORIAN PICNIC DURING SUMMERTIME</h2>
+					<h3>IVORIAN PICNIC DURING SUMMERTIME</h3>
 					<p>COME SOCIALIZE AND HAVE FUN WITH US</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/C.png" alt="slide3"
+				<img src="images/slideshow/3.png" alt="slide3"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
-					<h2>HAPPY INDEPENDANCE DAY</h2>
+					<h3>HAPPY INDEPENDANCE DAY</h3>
 					<p>Cote d'Ivoire just celebrated the 56th year of Independence</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/D.png" alt="slide4">
+				<img src="images/slideshow/4.png" alt="slide4">
 				<div class="carousel-caption">
-					<h2>HAPPY INDEPENDANCE DAY</h2>
+					<h3>HAPPY INDEPENDANCE DAY</h3>
 					<p>Cote d'Ivoire just celebrated the 56th year of Independence
 						from France</p>
 				</div>
 			</div>
-			
-			<div class="container-fluid calendar-tv">
-<!-- 				<div class="col-md-1 rotate latest-event"style="background-color: darkorange">LATEST EVENTS
-				</div>
-				<div class=col-md-8 >  4 EVENTS
-				</div>
-				<div class=col-md-3>
-					class=col-md-3
-					<img class=watchtv src="images/watchTV.png" alt="Watch TV">
-				</div> -->
-				<div >
-					<div class="latest-event rotate" >  LATEST EVENT</div>
-					<div style="display: inline-block;">  EVENT 1             EVENT 2
-					<br>  EVENT 3             EVENT 4
-					</div>
-					<div>
-						<img class=watchtv src="template/images/watchTV.png" alt="Watch TV">
-					</div>
-				</div> 
-			</div>
 
 		</div>
-
+        
 		<!-- Left and right controls -->
 		<a class="left carousel-control" href="#myCarousel" role="button"
 			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
 			aria-hidden="true"></span> <span class="sr-only">Previous</span>
-		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+		</a> 
+        <a class="right carousel-control" href="#myCarousel" role="button"
 			data-slide="next"> <span
 			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
 
-
+            
+<!--
+        <div class="container calendar-tv">
+            
+          <div class="latest-event">
+            <h4>LATEST EVENT<h4> 
+            </div>  
+            
+            <iframe width="260" height="155" src="https://www.youtube.com/embed/6tYLhCvbxMo" frameborder="0" allowfullscreen></iframe>
+             
+        </div>
+-->
+    
+   <div class="calendar">
+    <header><p>LATEST NEWS</p></header>
+    <article>event 1</article><!--
+    --><article>Event 2</article><!--
+    --><article>Event 3</article><!--
+    --><article>
+       <img class="watchtv" src="http://i66.tinypic.com/2nqut0w.jpg" alt=""></article>
+</div>
+    
+    
+    
+    
 	<!-- member's form -->
 	<div class="jumbotron">
 		<form class="form-inline text-center">
@@ -231,18 +236,17 @@
 
 	<footer class="content-info">
 		<div class="bottom-advertisement">
-			<div class="container ">
-				<div class=" col-md-2" style="background: forestgreen">
+			<div class="form-inline">
+				<div class="form-group">
 					SOCIAL                                  
 				</div>
-				<div>
-					<div class="col-md-5">
+				<div class="form-group">
 					         ADV 1   
-					</div>
-					<div class=" col-md-5">
-					 ADV 2 
-					</div>
 				</div>
+				<div class="form-group">
+					 ADV 2 
+				</div>
+				
 			</div>
 			<br><br><br><br><br><br>
 		</div>
@@ -278,7 +282,7 @@
 				<div class=line></div>
 				<p>
 					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
-						ipsumlorem ipsum</small>
+						ipsumlorem ipsum</small>mall>
 				</p>
 
 			</div>
@@ -293,7 +297,7 @@
 				</p>
 
 			</div>
-			<div class="col-md-2">
+						<div class="col-md-2">
 
 				<h6>FOOTER 5</h6>
 				<div class=line></div>
@@ -303,26 +307,6 @@
 				</p>
 
 			</div>
-						<div class="col-md-2">
-
-				<h6>FOOTER 6</h6>
-				<div class=line></div>
-				<p>
-					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
-						ipsumlorem ipsum</small>
-				</p>
-
-			</div>
-		</div>
-		<div class=line></div>
-		<div>
-		</div>
-		
-		<div class="creditfooter text-center">
-		<br>
-		<p><a href=#>Membership</a> | <a href=#>Fair use Policy</a> | <a href=#>Privacy Statement</a>
-		<br> Ivorian in Texas inc. is a tax-exempt under 501c3 of the Internal Revenue Code
-		</p>
 		</div>
 	</footer>
 </body>

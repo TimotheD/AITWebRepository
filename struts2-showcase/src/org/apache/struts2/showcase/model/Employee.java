@@ -28,7 +28,7 @@ import java.util.List;
  * Employee.
  */
 
-public class Employee implements IdEntity {
+public class  implements IdEntity {
 
 	private static final long serialVersionUID = -6226845151026823748L;
 

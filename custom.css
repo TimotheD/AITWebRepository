@@ -1,9 +1,5 @@
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> Testing-Header
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -20,7 +16,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 footer{
-	background-image: url("../images/Bottom-flag.png");
+	background-image: url("../template/images/Bottom-flag.png");
     background-repeat: repeat-y;
     background-position: center;
     background-size: 100%;
@@ -41,23 +37,23 @@ h2 {
 h3 {
 	font-family: "museo-sans", Helvetica, Arial, sans-serif;
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h4 {
 	font-size: 19px;
-	font-weight: 500;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
 h5 {
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 h6 {
 	font-size: 13px;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: none;
 }
 
@@ -87,20 +83,6 @@ fieldset[disabled] .btn-primary.active {
     border: none !important;
 }
 
-<<<<<<< HEAD
-.news {
-	background-color: forestgreen;
-	color:#fff;
-}
-
-.news-middle {
-	background-color: darkgreen;
-	color: #fff;
-}
-
-
-=======
->>>>>>> Testing-Header
 
 .form-control {
 
@@ -117,12 +99,20 @@ fieldset[disabled] .btn-primary.active {
     margin-top: .8%;
 }
 
-<<<<<<< HEAD
-=======
+
+
+.line{
+    width: 60%;
+    height: 1px;
+    background-color: grey;
+    margin: auto;
+}
+
+
 /*
  
  
- Caroussel
+ Carousel
  
 */
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -131,8 +121,22 @@ fieldset[disabled] .btn-primary.active {
     /* height: auto; */
 }
 
+/* .overlay  { */
+/* 	conten: ''; */
+/* 	background-color: black; */
+/* 	opacity: 0.40; */
+/* 	/*  background: transparent url(../images/pattern.png) repeat top left;*/ */
+/* 	position : absolute; */
+/* 	top: 0; */
+/* 	bottom: 0; */
+/* 	left: 0; */
+/* 	right: 0; */
+/* 	z-index: 99999; */
+/* 	pointer-events: none; */
+/* 	position: absolute */
+/* } */
 
->>>>>>> Testing-Header
+
 
 /* =============================================================================
    Header
@@ -146,15 +150,12 @@ fieldset[disabled] .btn-primary.active {
 	top: 28px;
 }
 
-<<<<<<< HEAD
-=======
 #navbar-tail{
 	background: transparent;
 	margin-top:-2px;
 }
 
 
->>>>>>> Testing-Header
 .navbar {
 	background-color:forestgreen;
 	opacity: 0.90;
@@ -173,7 +174,7 @@ fieldset[disabled] .btn-primary.active {
 	margin-top: 50px;
 	-webkit-transition: all 0.2s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.2s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.2s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.2s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.2s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -199,7 +200,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar .brand {
 	position: absolute;
 	bottom: 0;
-	background: url(../images/logo.png) no-repeat  center 100%;
+	background: url(../template/images/logo.png) no-repeat  center 100%;
     width: 35%;
     height: 100px;
 	background-size: 80%;
@@ -211,7 +212,7 @@ fieldset[disabled] .btn-primary.active {
 	position: absolute;
 	-webkit-transition: opacity 0.1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: opacity 0.1s ease-out;  /* Firefox 4-15 */
-	-o-transition: opacity 0.1s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: opacity 0.1s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: opacity 0.1s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -220,7 +221,7 @@ fieldset[disabled] .btn-primary.active {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	position: absolute;
-	background: url(../images/logo.png) no-repeat  center 100%;
+	background: url(../template/images/logo.png) no-repeat  center 100%;
 	width: 300px;
     height: 60px;
 	top: 0;
@@ -368,7 +369,7 @@ fieldset[disabled] .btn-primary.active {
 	width: 100%;
 	-webkit-transition: all 0.1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.1s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.1s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.1s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 		-webkit-transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
@@ -662,7 +663,7 @@ section.blu p {
 	z-index: 4;
 	-webkit-transition: opacity 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: opacity 0.3s ease-out;  /* Firefox 4-15 */
-	-o-transition: opacity 0.3s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: opacity 0.3s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: opacity 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 	opacity: 0;
 	visibility: hidden;
@@ -698,7 +699,7 @@ section.blu p {
 	opacity: 1;
 	-webkit-transition: opacity 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: opacity 0.3s ease-out;  /* Firefox 4-15 */
-	-o-transition: opacity 0.3s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: opacity 0.3s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: opacity 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -829,14 +830,10 @@ section.page-header {
 }
 
 .btn {
-<<<<<<< HEAD
-	background: transparent;
-=======
 	/*background: transparent;*/
->>>>>>> Testing-Header
 	-webkit-transition: all 0.2s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.1s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.1s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.1s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 	border-radius: 0;
 	border-width: 2px;
@@ -930,7 +927,7 @@ section.page-header {
 	margin-left: -6px;
 	-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -979,12 +976,12 @@ section.page-header {
 	background: #323C46;
 	top: 0;
 	z-index: 9999;
-	background: url(../images/loading.gif) center center no-repeat #ffffff;
+	background: url(../template/images/loading.gif) center center no-repeat #ffffff;
 	background-size: 45px 32px;
 }
 
 .lt-ie10 .loader {
-	background: url(../images/loading.gif) center center no-repeat;
+	background: url(../template/images/loading.gif) center center no-repeat;
 	background-size: 45px 32px;
 }
 
@@ -997,10 +994,6 @@ section.page-header {
 	height: 100%;
 	z-index: 10;
 }
-
-
-
-
 
 
 
@@ -1052,7 +1045,7 @@ display: none;
 	color: white;
 	-webkit-transition: all 0.2s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.2s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.2s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.2s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.2s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -1198,24 +1191,117 @@ display: none;
 }
 
 
-<<<<<<< HEAD
-=======
 /*
+INFO FEED
+*/
+#infofeed{
+	margin-top: 3%;
+	padding-top: 2%;
+	background-color: white;
+}
+
+
+.calendar {
+    position: relative;
+    background: #fff;
+    width: 70%;
+    margin: -200px auto 0;
+   
+   }
+.calendar header {
+    display:inline-block;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:3em;
+    overflow:hidden;
+    white-space: nowrap;
+    background: darkorange;
+    color: #fff;
+}
+.calendar header p {
+    -moz-transform-origin:0 50%;
+    -moz-transform:rotate(-90deg) translate(-50%, 50%);
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:rotate(-90deg) translate(-50%, 50%);
+    -o-transform-origin:0 50%;
+    -o-transform:rotate(-90deg) translate(-50%, 50%);
+    -ms-transform-origin:0 50%;
+    -ms-transform:rotate(-90deg) translate(-50%, 50%);
+    transform-origin:0 50%;
+    transform:rotate(-90deg) translate(-50%, 50%);
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:124px;
+    margin:auto;
+    font-size: 1.2em;
+    line-height:2.5em;
+    
+}
+.calendar article {
+    display:inline-block;
+    width:25%;
+    text-align: center;
+    vertical-align:middle;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .watchtv {
+  width: 100%;
+  background-color: darkgreen;
+
+ 
+}
+
+/*
+====================================================================
 	NEWS
+====================================================================
 */
 
+
+#newsfeed{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: forestgreen;
+	margin-top: 2%;
+	margin-bottom:3%;
+	
+}
+
+.news-main {
+	background-color: forestgreen;
+	color:#fff;
+	margin-left:14%;
+	padding-top: 4.6%;
+	padding-bottom: 6.5%;
+	
+}
 .news {
 	background-color: forestgreen;
 	color:#fff;
+	padding-top: 9%;
+	padding-bottom: 7.99%;
+	
 }
 
-.news:hover {
+.news:hover, .news-main:hover {
 	background-color: darkgreen;
 	color: #fff;
 }
 
+.bottom-advertisement{
+	background-color: orange;
+}
 
->>>>>>> Testing-Header
+
+
+
 /* ==========================================================================
    HOME
    ========================================================================== */
@@ -1755,7 +1841,7 @@ display: none;
 	display: none;
 	-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -1818,7 +1904,7 @@ display: none;
 	height: 46px;
 	-webkit-transition: all 0.15s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.15s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.15s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.15s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.15s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }
 
@@ -1854,7 +1940,7 @@ display: none;
 	filter: alpha(opacity=0);
 	-webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
-	-o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.50â€“12.00 */
 	transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 	-webkit-transform: scale(0.6, 0.6);
 	-webkit-transition-timing-function: ease-in-out;
@@ -2505,7 +2591,6 @@ aside .media .media-body a:hover {
    ========================================================================== */
 
 
-
 .content-info {
 	font-size: 14px;
 	line-height: 20px;
@@ -2711,9 +2796,11 @@ margin-right: 20%;
 	font-size: 48px;
 }
 
+/*
 section {
 	padding: 60px 0;
 }
+*/
 
 section.pagina-testo-header {
 	padding-top: 170px;
